@@ -5,7 +5,7 @@ public class PhysicalProduct {
         System.out.println("Printing the invoice for the physical product");
     }
 
-    public double calculateShippingCost() {
+    double calculateShippingCost() {
         return 70.00;
     }
 }

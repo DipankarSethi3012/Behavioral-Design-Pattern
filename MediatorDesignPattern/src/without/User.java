@@ -31,3 +31,9 @@ public class User {
         System.out.println(name + " received: /" + change + "/from" + user.name);
     }
 }
+
+
+//Each user is directed connected with other user, creating a tight coupling
+//Modifying a list of users can easily break a system, especially in large systems where users afe dynamically managed. This increases the complexity of managing the system
+//The current system doesn't good for managing the different roles (Admin, user, HR). That requires a signmificant change
+//The current approach manages the user specific permissions
